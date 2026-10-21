@@ -1,0 +1,27 @@
+bin/
+dist/
+*.md
+!CLAUDE.md
+!README.md
+*.log
+log
+
+# Private local data must never enter a public commit.
+.private/
+.cache/
+evidence/
+runs/
+runtime/
+*.dpapi
+*.exe
+*.zip
+*.tar
+*.gz
+.env
+.env.*
+config.local.*
+*-ledger.json
+*policy.config.json
+*budget.config.json
+*.pem
+*.key
